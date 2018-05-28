@@ -17,6 +17,9 @@
 		944F744D20BC9D2300AFE35E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 944F744B20BC9D2300AFE35E /* LaunchScreen.storyboard */; };
 		944F745820BC9D2300AFE35E /* CrushedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944F745720BC9D2300AFE35E /* CrushedTests.swift */; };
 		944F746320BC9D2300AFE35E /* CrushedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944F746220BC9D2300AFE35E /* CrushedUITests.swift */; };
+		944F747120BC9E1C00AFE35E /* CrushTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944F747020BC9E1C00AFE35E /* CrushTile.swift */; };
+		944F747320BC9F5400AFE35E /* CrushedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944F747220BC9F5400AFE35E /* CrushedModel.swift */; };
+		944F747520BCA2A900AFE35E /* CrushUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944F747420BCA2A900AFE35E /* CrushUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		944F745E20BC9D2300AFE35E /* CrushedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrushedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		944F746220BC9D2300AFE35E /* CrushedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrushedUITests.swift; sourceTree = "<group>"; };
 		944F746420BC9D2300AFE35E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		944F747020BC9E1C00AFE35E /* CrushTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrushTile.swift; sourceTree = "<group>"; };
+		944F747220BC9F5400AFE35E /* CrushedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrushedModel.swift; sourceTree = "<group>"; };
+		944F747420BCA2A900AFE35E /* CrushUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrushUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,9 @@
 				944F744920BC9D2300AFE35E /* Assets.xcassets */,
 				944F744B20BC9D2300AFE35E /* LaunchScreen.storyboard */,
 				944F744E20BC9D2300AFE35E /* Info.plist */,
+				944F747020BC9E1C00AFE35E /* CrushTile.swift */,
+				944F747220BC9F5400AFE35E /* CrushedModel.swift */,
+				944F747420BCA2A900AFE35E /* CrushUtils.swift */,
 			);
 			path = Crushed;
 			sourceTree = "<group>";
@@ -267,9 +276,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				944F747320BC9F5400AFE35E /* CrushedModel.swift in Sources */,
+				944F747120BC9E1C00AFE35E /* CrushTile.swift in Sources */,
 				944F744320BC9D2100AFE35E /* GameScene.swift in Sources */,
 				944F744520BC9D2100AFE35E /* GameViewController.swift in Sources */,
 				944F743D20BC9D2100AFE35E /* AppDelegate.swift in Sources */,
+				944F747520BCA2A900AFE35E /* CrushUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
